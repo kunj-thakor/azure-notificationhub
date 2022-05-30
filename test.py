@@ -150,5 +150,5 @@ data = {}
 data['response'] = 'data: R1|X1|S1,1|$'
 json_data = json.dumps(data,separators=(',',':'))
 print(json_data)
-alert_payload = {"aps":{"alert":"Mask Generated Successfully"}}
+alert_payload = {"aps":{"alert":"Notification Sent Successfully"}}
 hub.send_apple_notification(alert_payload)
